@@ -11,8 +11,11 @@ namespace CSharpTutorials
         static void Main(string[] args)
         {
             string message = "Hello World!! THIS IS ME ";
-
+           Console.WriteLine("Value of i: {0}", i);
+            for(int i = 0; i < 10; i++)
+             (
             Console.WriteLine(message);
+           )
         }
     }
 }
